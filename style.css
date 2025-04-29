@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+body
+{
+   background-color: rgb(128, 138, 226);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 2000px;
+    max-width: 2000px;
+    background:white;
+    margin: 50px;
+    display: grid;
+    grid-template-columns:1fr 2fr ;
+    box-shadow: 0 35px 55px rgb(211, 68, 68, 0.1);
+    
+}
+.container .left_side
+{
+    position: relative;
+    background: #054792;
+    padding:40px ;
+}
+.profiletext
+{
+    position:r;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px rgb(46, 50,179, 0.2 );
+}
+.profiletext .imgbx
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    overflow:hidden;
+    
+    
+}
+.profileText .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+a
+{
+    font-size: 2em;
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+    margin: 10px;
+    padding-top: 10;
+    display: bottom;
+}
+
+.name
+{padding:10% ;}
+.name h1
+{
+    font-size: 60px;
+    font-family: bold;
+    color: #054792;
+    padding: top 15px; ;
+}
+.name p{
+    font-size: medium;
+    font-family: sans-serif;
+    
+}
+.name a{
+    font-size: medium;
+    font-family:sans-serif ;
+    display: inline-block ;
+    color: black;
+    margin: 0;
+}
+.box-2 p{
+    font-family:serif;
+    padding: 5px; 
+    
+
+}
+.box-7 image{
+    font-family:  sans-serif;
+    font-size:large;
+    border-image:5px ;
+
+}
